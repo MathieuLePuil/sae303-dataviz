@@ -21,7 +21,7 @@
         <li>
             <a href="#client">
                 <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
-                <span class="nav-title">Menu 2</span>
+                <span class="nav-title">Clients</span>
             </a>
         </li>
         <li>

@@ -19,6 +19,15 @@
             <img src="assets/LOGO%20Muxe.svg">
         </div>
     </section>
+    <section class="client" id="client">
+        <div class="titre-section">
+            <h2>Informations client</h2>
+        </div>
+        <div class="graphique">
+            <div id="graph1"><img src="assets/LOGO%20Muxe.svg"></div>
+            <div id="graph2"><img src="assets/LOGO%20Muxe.svg"></div>
+        </div>
+    </section>
 </body>
 
 <?php
