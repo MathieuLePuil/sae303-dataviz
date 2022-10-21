@@ -8,12 +8,21 @@
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/com.js" type="module"></script>
+    <script src="js/comReg.js" type="module"></script>
+
 </head>
 <body>
     <main>
-        <div class="graph">
-            <canvas id="com"></canvas>
-        </div>
+        <section>
+            <div class="graph">
+                <canvas id="com"></canvas>
+            </div>
+        </section>
+        <section>
+            <div>
+                <canvas id="comReg"></canvas>
+            </div>
+        </section>
     </main>
 </body>
 </html>

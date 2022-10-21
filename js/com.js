@@ -1,6 +1,6 @@
 import dataJson from '../json/com.json' assert { type: 'json' }
 $(document).ready(function(){
-    const regCom = new Chart(
+    const com = new Chart(
         document.getElementById('com'),
         {
             type : 'line',
