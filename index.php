@@ -23,6 +23,11 @@
                 <canvas id="comReg"></canvas>
             </div>
         </section>
+        <section>
+            <div>
+                <canvas id="comReg"></canvas>
+            </div>
+        </section>
     </main>
 </body>
 </html>
