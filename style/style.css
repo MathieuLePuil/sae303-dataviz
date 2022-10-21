@@ -319,3 +319,22 @@ body {
     text-align: start;
     white-space: nowrap;
 }
+
+/* SECTION ACCUEIL */
+
+.accueil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0 160px;
+}
+.accueil img {
+    width: 400px;
+}
+.accueil h1 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250px;
+}
