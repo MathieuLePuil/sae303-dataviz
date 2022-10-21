@@ -1,7 +1,7 @@
-import dataJson from '../json/reg.json' assert { type: 'json' }
+import dataJson from '../json/com.json' assert { type: 'json' }
 $(document).ready(function(){
     const regCom = new Chart(
-        document.getElementById('regCom'),
+        document.getElementById('com'),
         {
             type : 'line',
             data:{
@@ -10,8 +10,8 @@ $(document).ready(function(){
                     'Février',
                     'Mars',
                     'Avril',
-                    'Mai',               
-                    'Juin',             
+                    'Mai',
+                    'Juin',
                     'Juillet',
                     'Août',
                     'Septembre',
@@ -23,13 +23,7 @@ $(document).ready(function(){
                     label: 'Reg',
                     backgroundColor: 'rgb(255, 99, 132)',
                     borderColor: 'rgb(255, 99, 132)',
-                    data: dataJson.datasets1,
-                  },
-                  {
-                    label: 'Com',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 50, 240)',
-                    data: dataJson.datasets2,
+                    data: dataJson.com,
                   }]
             }
         }

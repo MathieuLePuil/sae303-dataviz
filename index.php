@@ -7,12 +7,12 @@
     <title>SAE 303 | Dataviz</title>
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="js/regcom.js" type="module"></script>
+    <script src="js/com.js" type="module"></script>
 </head>
 <body>
     <main>
         <div class="graph">
-            <canvas id="regCom"></canvas>
+            <canvas id="com"></canvas>
         </div>
     </main>
 </body>
