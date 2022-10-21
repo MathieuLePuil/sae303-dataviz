@@ -13,14 +13,14 @@
             </a>
         </li>
         <li>
-            <a href="#client">
-                <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
-                <span class="nav-title">Client</span>
+            <a href="#nbcommande">
+                <span class="nav-icon"><ion-icon name="cart-outline"></ion-icon></span>
+                <span class="nav-title">Commandes</span>
             </a>
         </li>
         <li>
-            <a href="#"">
-                <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
+            <a href="#client">
+                <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
                 <span class="nav-title">Menu 2</span>
             </a>
         </li>

@@ -1,15 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@font-face {
-    font-family: "paint_drops";
-    src: url("../fonts/paint_drops.ttf");
-}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@font-face {
-    font-family: 'Gordita Ultra';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gordita Ultra'), url('../fonts/GorditaUltra.woff') format('woff');
-}
 
 * {
     margin: 0;
@@ -137,7 +126,6 @@ body {
 }
 .navigation ul li a {
     position: relative;
-    display: block;
     width: 100%;
     display: flex;
     text-decoration: none;
@@ -320,6 +308,17 @@ body {
     white-space: nowrap;
 }
 
+/* TOUTE SECTION */
+
+.titre-section {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: -50px;
+}
+
 /* SECTION ACCUEIL */
 
 .accueil {
@@ -339,29 +338,38 @@ body {
     font-size: 250px;
 }
 
+/* SECTION NBCOMMANDE */
+
+.nbcommande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.nbcommande .graphique {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nbcommande img {
+    width: 350px;
+}
 
 /* SECTION CLIENT */
 
 .client {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    height: 100vh;
 }
 .client .graphique {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 87vh;
     margin: 0 250px;
-}
-.titre-section {
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 50px;
-    padding-top: 50px;
-    margin-bottom: -50px;
 }
 .client img {
     width: 350px;

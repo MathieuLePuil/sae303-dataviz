@@ -11,20 +11,14 @@
         <img src="assets/LOGO%20Muxe.svg" alt="Logo Muxe">
         <h1>Muxe</h1>
     </section>
-    <section class="client" id="client">
+    <section class="nbcommande" id="nbcommande">
         <div class="titre-section">
-            <h2>Informations client</h2>
+            <h2>Nombre de commande</h2>
         </div>
         <div class="graphique">
-            <div id="graph1">
-                <img src="assets/LOGO%20Muxe.svg" alt="Logo Muxe">
-            </div>
-            <div id="graph2">
-                <img src="assets/LOGO%20Muxe.svg" alt="Logo Muxe">
-            </div>
+            <img src="assets/LOGO%20Muxe.svg">
         </div>
     </section>
-
 </body>
 
 <?php
