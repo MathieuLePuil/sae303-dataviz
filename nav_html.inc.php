@@ -13,9 +13,9 @@
             </a>
         </li>
         <li>
-            <a href="#">
-                <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
-                <span class="nav-title">Menu 1</span>
+            <a href="#client">
+                <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
+                <span class="nav-title">Client</span>
             </a>
         </li>
         <li>
@@ -50,9 +50,9 @@
             </a>
         </li>
         <li>
-            <a href="#">
-                <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
-                <span class="nav-title">Menu 1</span>
+            <a href="#client">
+                <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
+                <span class="nav-title">Client</span>
             </a>
         </li>
         <li>

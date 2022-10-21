@@ -345,11 +345,24 @@ body {
 .client {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+.client .graphique {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
-    margin: 0 200px;
+    height: 87vh;
+    margin: 0 250px;
+}
+.titre-section {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: -50px;
 }
 .client img {
-    width: 400px;
+    width: 350px;
 }
