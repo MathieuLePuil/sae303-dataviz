@@ -19,7 +19,7 @@
             </a>
         </li>
         <li>
-            <a href="#" target="_blank">
+            <a href="#"">
                 <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
                 <span class="nav-title">Menu 2</span>
             </a>
@@ -56,7 +56,7 @@
             </a>
         </li>
         <li>
-            <a href="#" target="_blank">
+            <a href="#"">
                 <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
                 <span class="nav-title">Menu 2</span>
             </a>

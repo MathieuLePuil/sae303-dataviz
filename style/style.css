@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("../assets/fond.jpg");
+    background-color: #282828;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,10 +37,10 @@ body {
 .navigation {
     position: fixed;
     inset: 20px;
-    background: #282828;
+    background: #484848;
     width: 80px;
     height: 95vh;
-    border-left: 10px solid #282828;
+    border-left: 10px solid #484848;
     border-radius: 50px;
     overflow: hidden;
     box-shadow: 15px 15px 25px rgba(0,0,0,0.05);
@@ -57,7 +57,7 @@ body {
     right: 15px;
     width: 50px;
     height: 50px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
     cursor: pointer;
@@ -106,7 +106,7 @@ body {
     border-bottom-left-radius: 30px;
 }
 .navigation ul li:hover {
-    background: #fff;
+    background: #4256AE;
 }
 .navigation ul li:nth-child(1) {
     top: 20px;
@@ -122,7 +122,7 @@ body {
     height: 20px;
     background: transparent;
     border-bottom-right-radius: 20px;
-    box-shadow: 3px 8px 0 #ffffff;
+    box-shadow: 3px 8px 0 #4256AE;
 }
 .navigation ul li:not(:first-child):hover::after {
     content: '';
@@ -133,7 +133,7 @@ body {
     height: 20px;
     background: transparent;
     border-top-right-radius: 20px;
-    box-shadow: 3px -8px 0 #ffffff;
+    box-shadow: 3px -8px 0 #4256AE;
 }
 .navigation ul li a {
     position: relative;
@@ -141,10 +141,10 @@ body {
     width: 100%;
     display: flex;
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 .navigation ul li:hover:not(:first-child) a {
-    color: #282828;
+    color: #ffffff;
 }
 .navigation ul li a .nav-icon {
     position: relative;
@@ -193,10 +193,10 @@ body {
 .navigationtel.active {
     position: fixed;
     inset: 20px;
-    background: #282828;
+    background: #484848;
     width: 250px;
     height: 95vh;
-    border-left: 10px solid #282828;
+    border-left: 10px solid #484848;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 15px 15px 25px rgba(0,0,0,0.05);
@@ -208,7 +208,7 @@ body {
     left: 25px;
     width: 50px;
     height: 50px;
-    background: #fff;
+    background: #4256AE;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
     cursor: pointer;
@@ -256,10 +256,10 @@ body {
     width: 100%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    /*background: #fff;*/
+    /*background: #4256AE;*/
 }
 .navigationtel.active ul li:hover {
-    background: #fff;
+    background: #4256AE;
 }
 .navigationtel.active ul li:nth-child(1) {
     top: 100px;
@@ -275,7 +275,7 @@ body {
     height: 20px;
     background: transparent;
     border-bottom-right-radius: 20px;
-    box-shadow: 7.5px 7.5px 7.5px #ffffff;
+    box-shadow: 7.5px 7.5px 7.5px #4256AE;
 }
 .navigationtel.active ul li:not(:first-child):hover::after {
     content: '';
