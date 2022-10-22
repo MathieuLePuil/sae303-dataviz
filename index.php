@@ -9,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/com.js" type="module"></script>
     <script src="js/comReg.js" type="module"></script>
+    <script src="js/comCat.js" type="module"></script>
+
 
 </head>
 <body>
@@ -25,7 +27,7 @@
         </section>
         <section>
             <div>
-                <canvas id="comReg"></canvas>
+                <canvas id="comCat"></canvas>
             </div>
         </section>
     </main>

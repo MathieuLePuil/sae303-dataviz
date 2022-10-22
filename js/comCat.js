@@ -1,4 +1,4 @@
-import dataJson from '../json/com.json' assert { type: 'json' }
+import dataJson from '../json/comCat.json' assert { type: 'json' }
 $(document).ready(function(){
     const comCat = new Chart(
         document.getElementById('comCat'),
