@@ -10,8 +10,7 @@
     <script src="js/com.js" type="module"></script>
     <script src="js/comReg.js" type="module"></script>
     <script src="js/comCat.js" type="module"></script>
-
-
+    <script src="js/monReg.js" type="module"></script>
 </head>
 <body>
     <main>
@@ -28,6 +27,11 @@
         <section>
             <div>
                 <canvas id="comCat"></canvas>
+            </div>
+        </section>
+        <section>
+            <div>
+                <canvas id="monReg"></canvas>
             </div>
         </section>
     </main>

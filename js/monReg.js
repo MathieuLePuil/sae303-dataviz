@@ -1,9 +1,8 @@
-import dataJson from '../json/com.json' assert { type: 'json' }
+import dataJson from '../json/monReg.json' assert { type: 'json' }
 $(document).ready(function(){
-    const com = new Chart(
-        document.getElementById('com'),
-        {
-            type : 'line',
+    const monReg = new Chart(
+        document.getElementById('monReg'),{
+            type: 'line',
             data:{
                 labels: [
                     'Janvier',
@@ -20,10 +19,10 @@ $(document).ready(function(){
                     'Décembre'
                 ],
                 datasets: [{
-                    label: 'Reg',
+                    label: 'CB',
                     backgroundColor: 'rgb(255, 99, 132)',
                     borderColor: 'rgb(255, 99, 132)',
-                    data: dataJson.com,
+                    data: dataJson.x,
                   }]
             }
         }
