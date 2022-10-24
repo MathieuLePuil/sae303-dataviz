@@ -20,11 +20,32 @@ $(document).ready(function(){
                     'Décembre'
                 ],
                 datasets: [{
-                    label: 'Reg',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    label: 'Nombre de commande',
+                    backgroundColor: 'rgb(255, 255, 255)',
+                    borderColor: '#4256AE',
+                    borderWidth: 3,
                     data: dataJson.com,
-                  }]
+                  }],
+            },
+            options: {
+                scales: {
+                    y: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        },
+                    },
+                    x: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        }
+                    },
+                }
             }
         }
     )
