@@ -28,6 +28,14 @@
             <div id="graph2"><img src="assets/LOGO%20Muxe.svg"></div>
         </div>
     </section>
+    <section class="categorie" id="categorie">
+        <div class="titre-section">
+            <h2>Catégories</h2>
+        </div>
+        <div class="graphique">
+            <img src="assets/LOGO%20Muxe.svg" id="graph3">
+        </div>
+    </section>
 </body>
 
 <?php

@@ -25,9 +25,9 @@
             </a>
         </li>
         <li>
-            <a href="#">
-                <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
-                <span class="nav-title">Menu 3</span>
+            <a href="#categorie">
+                <span class="nav-icon"><ion-icon name="library-outline"></ion-icon></span>
+                <span class="nav-title">Catégories</span>
             </a>
         </li>
         <li>

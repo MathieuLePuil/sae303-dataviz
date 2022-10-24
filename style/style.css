@@ -346,13 +346,11 @@ body {
     align-items: center;
     height: 100vh;
 }
-
 .nbcommande .graphique {
     display: flex;
     align-items: center;
     height: 100%;
 }
-
 .nbcommande img {
     width: 350px;
 }
@@ -375,5 +373,22 @@ body {
     flex-wrap: wrap;
 }
 .client img {
+    width: 350px;
+}
+
+/* SECTION CATEGORIE */
+
+.categorie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.categorie .graphique {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#graph3 {
     width: 350px;
 }
