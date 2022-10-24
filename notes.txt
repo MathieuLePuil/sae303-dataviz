@@ -1,0 +1,15 @@
+Section 1 :
+    - Graphique avec nombre de commandes chaque mois (graphique ligne)
+
+Section 2 :
+    - Graphique avec nombre de commandes selon la région du client (camembert)
+    - Graphique avec mode de livraison selon la région du client (camembert)
+
+Section 3 :
+    - Graphique avec nombre de commandes selon la catégorie (graphique bâton)
+
+Section 4 :
+    - Graphique avec montant selon mode de règlement
+    - Graphique avec montant selon la catégorie
+    - Graphique avec montant chaque mois
+    - Graphique avec nombre de commandes avec coupon de réduction
