@@ -358,7 +358,7 @@ body {
     align-items: center;
     height: 100%;
 }
-.nbcommande img {
+.nbcommande canvas {
     width: 350px;
 }
 #graph1 {
@@ -372,7 +372,7 @@ body {
     margin-top: 20px;
     text-align: center;
 }
-
+canvas
 /* SECTION CLIENT */
 
 .client {
@@ -393,7 +393,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.client img {
+.client canvas {
     width: 350px;
 }
 .client .graphique {
@@ -419,7 +419,7 @@ body {
     align-items: center;
     height: 100%;
 }
-.categorie img {
+.categorie canvas {
     width: 350px;
 }
 #graph4 {
