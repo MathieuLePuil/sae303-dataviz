@@ -16,7 +16,7 @@
             <h2>Nombre de commande</h2>
         </div>
         <div class="graphique">
-            <img src="assets/LOGO%20Muxe.svg">
+            <img src="assets/LOGO%20Muxe.svg" alt="graphique">
         </div>
     </section>
     <section class="client" id="client">
@@ -24,8 +24,8 @@
             <h2>Informations client</h2>
         </div>
         <div class="graphique">
-            <div id="graph1"><img src="assets/LOGO%20Muxe.svg"></div>
-            <div id="graph2"><img src="assets/LOGO%20Muxe.svg"></div>
+            <div id="graph1"><img src="assets/LOGO%20Muxe.svg" alt="graphique"></div>
+            <div id="graph2"><img src="assets/LOGO%20Muxe.svg" alt="graphique"></div>
         </div>
     </section>
     <section class="categorie" id="categorie">
@@ -33,7 +33,20 @@
             <h2>Catégories</h2>
         </div>
         <div class="graphique">
-            <img src="assets/LOGO%20Muxe.svg" id="graph3">
+            <img src="assets/LOGO%20Muxe.svg" id="graph3" alt="graphique">
+        </div>
+    </section>
+    <section class="commande" id="commande">
+        <div class="titre-section">
+            <h2>Informations commandes</h2>
+        </div>
+        <div class="graphique">
+            <div id="graph1"><img src="assets/LOGO%20Muxe.svg" alt="graphique"></div>
+            <div id="graph2"><img src="assets/LOGO%20Muxe.svg" alt="graphique"></div>
+        </div>
+        <div class="graphique2">
+            <div id="graph1"><img src="assets/LOGO%20Muxe.svg" alt="graphique"></div>
+            <div id="graph2"><img src="assets/LOGO%20Muxe.svg" alt="graphique"></div>
         </div>
     </section>
 </body>

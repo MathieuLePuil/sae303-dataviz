@@ -11,5 +11,5 @@ Section 3 :
 Section 4 :
     - Graphique avec montant selon mode de règlement
     - Graphique avec montant selon la catégorie
-    - Graphique avec mode de livraison selon région X
+    - Graphique avec montant chaque mois
     - Graphique avec nombre de commandes avec coupon de réduction

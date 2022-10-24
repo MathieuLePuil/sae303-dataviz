@@ -392,3 +392,35 @@ body {
 #graph3 {
     width: 350px;
 }
+
+/* SECTION CLIENT */
+
+.commande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+}
+.commande .graphique {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 140px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.commande .graphique2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 140px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.commande img {
+    width: 350px;
+}

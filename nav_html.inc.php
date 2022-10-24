@@ -15,7 +15,7 @@
         <li>
             <a href="#nbcommande">
                 <span class="nav-icon"><ion-icon name="cart-outline"></ion-icon></span>
-                <span class="nav-title">Commandes</span>
+                <span class="nav-title">Stats commandes</span>
             </a>
         </li>
         <li>
@@ -32,8 +32,8 @@
         </li>
         <li>
             <a href="#">
-                <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
-                <span class="nav-title">Menu 4</span>
+                <span class="nav-icon"><ion-icon name="cube-outline"></ion-icon></span>
+                <span class="nav-title">Infos commandes</span>
             </a>
         </li>
     </ul>
@@ -51,26 +51,26 @@
         </li>
         <li>
             <a href="#client">
-                <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
-                <span class="nav-title">Client</span>
+                <span class="nav-icon"><ion-icon name="cart-outline"></ion-icon></span>
+                <span class="nav-title">Stats commandes</span>
             </a>
         </li>
         <li>
             <a href="#"">
-                <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
-                <span class="nav-title">Menu 2</span>
+                <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
+                <span class="nav-title">Clients</span>
             </a>
         </li>
         <li>
             <a href="#">
-                <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
-                <span class="nav-title">Menu 3</span>
+                <span class="nav-icon"><ion-icon name="library-outline"></ion-icon></span>
+                <span class="nav-title">Catégories</span>
             </a>
         </li>
         <li>
             <a href="#">
-                <span class="nav-icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
-                <span class="nav-title">Menu 4</span>
+                <span class="nav-icon"><ion-icon name="cube-outline"></ion-icon></span>
+                <span class="nav-title">Informations commandes</span>
             </a>
         </li>
     </ul>
