@@ -11,6 +11,7 @@
     <script src="js/comReg.js" type="module"></script>
     <script src="js/comCat.js" type="module"></script>
     <script src="js/monReg.js" type="module"></script>
+    <script src="js/monCat.js" type="module"></script>
 </head>
 <body>
     <main>
@@ -20,18 +21,23 @@
             </div>
         </section>
         <section>
-            <div>
+            <div class="graph">
                 <canvas id="comReg"></canvas>
             </div>
         </section>
         <section>
-            <div>
+            <div class="graph">
                 <canvas id="comCat"></canvas>
             </div>
         </section>
         <section>
-            <div>
+            <div class="graph">
                 <canvas id="monReg"></canvas>
+            </div>
+        </section>
+        <section>
+            <div class="graph">
+                <canvas id="monCat"></canvas>
             </div>
         </section>
     </main>
