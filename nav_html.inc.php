@@ -7,7 +7,7 @@
     </li>
     <ul>
         <li>
-            <a href="index.php">
+            <a href="#accueil">
                 <span class="nav-icon"><ion-icon name="home-outline"></ion-icon></span>
                 <span class="nav-title">Accueil</span>
             </a>
@@ -31,7 +31,7 @@
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#commande">
                 <span class="nav-icon"><ion-icon name="cube-outline"></ion-icon></span>
                 <span class="nav-title">Infos commandes</span>
             </a>
@@ -44,7 +44,7 @@
     <div class="toogletel" id="toggletel"></div>
     <ul>
         <li>
-            <a href="index.php">
+            <a href="#accueil">
                 <span class="nav-icon"><ion-icon name="home-outline"></ion-icon></span>
                 <span class="nav-title">Accueil</span>
             </a>
@@ -68,7 +68,7 @@
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#commande">
                 <span class="nav-icon"><ion-icon name="cube-outline"></ion-icon></span>
                 <span class="nav-title">Informations commandes</span>
             </a>

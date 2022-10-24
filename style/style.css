@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -318,6 +322,9 @@ body {
     padding-top: 50px;
     margin-bottom: -50px;
 }
+.graphique, .graphique2 {
+    color: white;
+}
 
 /* SECTION ACCUEIL */
 
@@ -354,26 +361,49 @@ body {
 .nbcommande img {
     width: 350px;
 }
+#graph1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#graph1 p {
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+}
 
 /* SECTION CLIENT */
 
 .client {
+    height: 100vh;
+}
+#graph2 p {
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+}
+#graph3 p {
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+}
+#graph2, #graph3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-}
-.client .graphique {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding: 0 140px;
-    height: 100%;
-    flex-wrap: wrap;
 }
 .client img {
     width: 350px;
+}
+.client .graphique {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 140px;
+    flex-wrap: wrap;
 }
 
 /* SECTION CATEGORIE */
@@ -389,38 +419,59 @@ body {
     align-items: center;
     height: 100%;
 }
-#graph3 {
+.categorie img {
     width: 350px;
 }
+#graph4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#graph4 p {
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+}
 
-/* SECTION CLIENT */
+/* SECTION COMMANDE */
 
 .commande {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 150vh;
+    justify-content: space-between;
+    height: 180vh;
 }
 .commande .graphique {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 140px;
-    height: 100%;
     flex-wrap: wrap;
 }
 .commande .graphique2 {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
     width: 100%;
-    padding: 0 140px;
-    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px 50px 140px;
     flex-wrap: wrap;
 }
+
+#graph5, #graph6, #graph7, #graph8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .commande img {
     width: 350px;
+}
+.commande p {
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
 }
