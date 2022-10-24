@@ -12,6 +12,7 @@
     <script src="js/comCat.js" type="module"></script>
     <script src="js/monReg.js" type="module"></script>
     <script src="js/monCat.js" type="module"></script>
+    <script src="js/monMoi.js" type="module"></script>
 </head>
 <body>
     <main>
@@ -38,6 +39,16 @@
         <section>
             <div class="graph">
                 <canvas id="monCat"></canvas>
+            </div>
+        </section>
+        <section>
+            <div class="graph">
+                <canvas id="monMoi"></canvas>
+            </div>
+        </section>
+        <section>
+            <div class="graph">
+                <canvas id="comCou"></canvas>
             </div>
         </section>
     </main>
