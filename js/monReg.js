@@ -1,8 +1,9 @@
 import dataJson from '../json/monReg.json' assert { type: 'json' }
 $(document).ready(function(){
-    const monReg = new Chart(
-        document.getElementById('monReg'),{
-            type: 'line',
+    const com = new Chart(
+        document.getElementById('monReg'),
+        {
+            type : 'line',
             data:{
                 labels: [
                     'Janvier',
@@ -22,7 +23,18 @@ $(document).ready(function(){
                     label: 'CB',
                     backgroundColor: 'rgb(255, 99, 132)',
                     borderColor: 'rgb(255, 99, 132)',
-                    data: dataJson.x,
+                    data: dataJson.CB,
+                  },{
+                    label: 'PAYPAL',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 255)',
+                    data: dataJson.PAYPAL,
+                  }
+                  ,{
+                    label: 'PAYPAL',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(127, 40, 94)',
+                    data: dataJson.VIRT,
                   }]
             }
         }
