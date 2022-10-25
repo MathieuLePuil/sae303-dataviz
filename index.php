@@ -34,7 +34,7 @@ require 'start_html.inc.php';
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
             <div id="graph3">
-                <img src="assets/LOGO%20Muxe.svg" alt="graphique">
+                <canvas id="livReg"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
         </div>
