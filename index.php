@@ -13,6 +13,7 @@
     <script src="js/monReg.js" type="module"></script>
     <script src="js/monCat.js" type="module"></script>
     <script src="js/monMoi.js" type="module"></script>
+    <script src="js/comCou.js" type="module"></script>
 </head>
 <body>
     <main>

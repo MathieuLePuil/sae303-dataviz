@@ -14,11 +14,9 @@ $(document).ready(function(){
                       'rgb(255, 99, 132)',
                       'rgb(54, 162, 235)',
                     ],
-                    data: dataJson.coupon,
+                    hoverOffset: 4,
+                    data: [dataJson.O, dataJson.N],
                   }]
-                },
-                options: {
-                    
                 }
               }
             );
