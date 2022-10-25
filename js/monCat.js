@@ -21,9 +21,29 @@ $(document).ready(function(){
                 ],
                 datasets: [{
                     label: 'CUISINE',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgb(0, 99, 0)',
+                    borderColor: 'rgb(0, 99, 0)',
                     data: dataJson.CUISINE,
+                  },{
+                    label: 'ELECTROMENAGER',
+                    backgroundColor: 'rgb(125, 99, 125)',
+                    borderColor: 'rgb(125, 99, 132)',
+                    data: dataJson.ELECTROMENAGER,
+                  },{
+                    label: 'IMAGE-SON',
+                    backgroundColor: 'rgb(255, 99, 250)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: dataJson.IMAGESON,
+                  },{
+                    label: 'Informatique',
+                    backgroundColor: 'rgb(45, 150, 132)',
+                    borderColor: 'rgb(255, 0, 255)',
+                    data: dataJson.INFORMATIQUE,
+                  },{
+                    label: 'Téléphonie',
+                    backgroundColor: 'rgb(45, 150, 132)',
+                    borderColor: 'rgb(255, 0, 255)',
+                    data: dataJson.TELEPHONIE,
                   }]
             }
         }
