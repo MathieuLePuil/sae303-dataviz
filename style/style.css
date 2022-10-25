@@ -489,3 +489,17 @@ body {
     transition: 1s;
 }
 /* Animation */
+
+form input, form textarea, form select{
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+#submit{
+    width: 100%;
+    cursor: pointer;
+}
+form{
+    color: white;
+}
