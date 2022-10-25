@@ -34,7 +34,7 @@ require 'start_html.inc.php';
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
             <div id="graph3">
-                <canvas id="comCat"></canvas>
+                <img src="assets/LOGO%20Muxe.svg" alt="graphique">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
         </div>
@@ -46,7 +46,7 @@ require 'start_html.inc.php';
         </div>
         <div class="graphique">
             <div id="graph4">
-                <canvas id="monReg"></canvas>
+                <canvas id="comCat"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
         </div>
@@ -58,21 +58,21 @@ require 'start_html.inc.php';
         </div>
         <div class="graphique">
             <div id="graph5">
-                <img src="assets/LOGO%20Muxe.svg" alt="graphique">
+                <canvas id="monReg"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
             <div id="graph6">
-                <img src="assets/LOGO%20Muxe.svg" alt="graphique">
+                <canvas id="monCat"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
         </div>
         <div class="graphique2">
             <div id="graph7">
-                <img src="assets/LOGO%20Muxe.svg" alt="graphique">
+                <canvas id="monMoi"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
             <div id="graph8">
-                <img src="assets/LOGO%20Muxe.svg" alt="graphique">
+                <canvas id="comCou"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
         </div>

@@ -36,6 +36,26 @@ $(document).ready(function(){
                     borderColor: '#FF0000',
                     data: dataJson.VIRT,
                   }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        },
+                    },
+                    x: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        }
+                    },
+                }
             }
         }
     )
