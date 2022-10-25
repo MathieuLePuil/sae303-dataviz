@@ -20,11 +20,31 @@ $(document).ready(function(){
                     'Décembre'
                 ],
                 datasets : [{
-                    label: 'monMoi',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    label: 'Montant des commandes',
+                    backgroundColor: '#4256AE',
+                    borderColor: '#4256AE',
                     data: dataJson.monMoi,
                   }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        },
+                    },
+                    x: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        }
+                    },
+                }
             }
         }
     )

@@ -20,31 +20,51 @@ $(document).ready(function(){
                     'Décembre'
                 ],
                 datasets: [{
-                    label: 'CUISINE',
+                    label: 'Cuisine',
                     backgroundColor: 'rgb(0, 99, 0)',
                     borderColor: 'rgb(0, 99, 0)',
                     data: dataJson.CUISINE,
                   },{
-                    label: 'ELECTROMENAGER',
+                    label: 'Électroménager',
                     backgroundColor: 'rgb(125, 99, 125)',
-                    borderColor: 'rgb(125, 99, 132)',
+                    borderColor: 'rgb(125, 99, 125)',
                     data: dataJson.ELECTROMENAGER,
                   },{
-                    label: 'IMAGE-SON',
-                    backgroundColor: 'rgb(255, 99, 250)',
+                    label: 'Image-son',
+                    backgroundColor: 'rgb(255, 99, 132)',
                     borderColor: 'rgb(255, 99, 132)',
                     data: dataJson.IMAGESON,
                   },{
                     label: 'Informatique',
-                    backgroundColor: 'rgb(45, 150, 132)',
+                    backgroundColor: 'rgb(255, 0, 255)',
                     borderColor: 'rgb(255, 0, 255)',
                     data: dataJson.INFORMATIQUE,
                   },{
                     label: 'Téléphonie',
-                    backgroundColor: 'rgb(45, 150, 132)',
-                    borderColor: 'rgb(255, 0, 255)',
+                    backgroundColor: '#D4FF00',
+                    borderColor: '#D4FF00',
                     data: dataJson.TELEPHONIE,
                   }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        },
+                    },
+                    x: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        }
+                    },
+                }
             }
         }
     )

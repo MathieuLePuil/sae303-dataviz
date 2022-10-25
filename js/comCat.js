@@ -13,7 +13,7 @@ $(document).ready(function(){
                     'Téléphone'
                 ],
                 datasets: [{
-                    label: 'comCat',
+                        label: 'Nombre de commande',
                     backgroundColor: '#4256AE',
                     borderColor: '#4256AE',
                     data: dataJson.comCat,
