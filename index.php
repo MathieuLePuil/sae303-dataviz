@@ -30,11 +30,11 @@ require 'start_html.inc.php';
         </div>
         <div class="graphique">
             <div id="graph2">
-                <img src="assets/LOGO%20Muxe.svg" alt="graphique">
+                <canvas id="comReg"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
             <div id="graph3">
-                <img src="assets/LOGO%20Muxe.svg" alt="graphique">
+                <canvas id="comCat"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
         </div>
@@ -46,7 +46,7 @@ require 'start_html.inc.php';
         </div>
         <div class="graphique">
             <div id="graph4">
-                <img src="assets/LOGO%20Muxe.svg" id="graph3" alt="graphique">
+                <canvas id="monReg"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
         </div>

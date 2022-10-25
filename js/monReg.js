@@ -21,19 +21,19 @@ $(document).ready(function(){
                 ],
                 datasets: [{
                     label: 'CB',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: '#FFFFFF',
+                    borderColor: '#FFFFFF',
                     data: dataJson.CB,
                   },{
                     label: 'PAYPAL',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 255)',
+                    backgroundColor: '#4256AE',
+                    borderColor: '#4256AE',
                     data: dataJson.PAYPAL,
                   }
                   ,{
-                    label: 'PAYPAL',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(127, 40, 94)',
+                    label: 'VIRT',
+                    backgroundColor: '#FF0000',
+                    borderColor: '#FF0000',
                     data: dataJson.VIRT,
                   }]
             }

@@ -21,7 +21,7 @@ $(document).ready(function(){
                 ],
                 datasets: [{
                     label: 'Nombre de commande',
-                    backgroundColor: 'rgb(255, 255, 255)',
+                    backgroundColor: '#4256AE',
                     borderColor: '#4256AE',
                     borderWidth: 3,
                     data: dataJson.com,

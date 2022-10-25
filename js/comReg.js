@@ -22,16 +22,42 @@ $(document).ready(function(){
                 ],datasets: [{
                     label: 'Répartition des genres Parcours Communication',
                     backgroundColor: [
-                      'rgb(255, 99, 132)',
-                      'rgb(54, 162, 235)',
+                      '#13A53B',
+                      '#CAD313',
+                      '#000000',
+                      '#AF0F0F',
+                      '#1BDEC9',
+                      '#1B94DE',
+                      '#C35AC0',
+                      '#A51256',
+                      '#F77B14',
+                      '#7FEFA9',
+                      '#732572',
+                      '#730808',
+                      '#FFFFFF',
+                    ],
+                    borderColor: [
+                        '#13A53B',
+                        '#CAD313',
+                        '#000000',
+                        '#AF0F0F',
+                        '#1BDEC9',
+                        '#1B94DE',
+                        '#C35AC0',
+                        '#A51256',
+                        '#F77B14',
+                        '#7FEFA9',
+                        '#732572',
+                        '#730808',
+                        '#FFFFFF',
                     ],
                     hoverOffset: 4,
                     data: dataJson.comReg,
                   }]
                 },
-                options: {
-                    
-                }
-              }
-            );
+            options: {
+                responsive: true,
+            }
+        }
+    );
 })

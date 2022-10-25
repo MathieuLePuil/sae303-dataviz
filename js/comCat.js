@@ -4,7 +4,7 @@ $(document).ready(function(){
         document.getElementById('comCat'),
         {
             type : 'bar',
-            data:{
+            data: {
                 labels: [
                     'Cuisine',
                     'Électroménager',
@@ -12,12 +12,32 @@ $(document).ready(function(){
                     'Informatique',
                     'Téléphone'
                 ],
-                datasets : [{
+                datasets: [{
                     label: 'comCat',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: '#4256AE',
+                    borderColor: '#4256AE',
                     data: dataJson.comCat,
-                  }]
+                }],
+            },
+            options: {
+                scales: {
+                    y: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        },
+                    },
+                    x: {
+                        ticks: {
+                            color: 'white',
+                        },
+                        grid: {
+                            borderColor: 'white',
+                        }
+                    },
+                }
             }
         }
     )
