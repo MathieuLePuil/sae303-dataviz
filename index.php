@@ -16,7 +16,7 @@ require 'start_html.inc.php';
         <div class="titre-section">
             <h2>Nombre de commande</h2>
         </div>
-        <div class="graphique">
+        <div class="graphique reveal">
             <div id="graph1">
                 <canvas id="com"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
@@ -28,7 +28,7 @@ require 'start_html.inc.php';
         <div class="titre-section">
             <h2>Informations client</h2>
         </div>
-        <div class="graphique">
+        <div class="graphique reveal">
             <div id="graph2">
                 <canvas id="comReg"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
@@ -44,7 +44,7 @@ require 'start_html.inc.php';
         <div class="titre-section">
             <h2>Catégories</h2>
         </div>
-        <div class="graphique">
+        <div class="graphique reveal">
             <div id="graph4">
                 <canvas id="comCat"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
@@ -56,7 +56,7 @@ require 'start_html.inc.php';
         <div class="titre-section">
             <h2>Informations commandes</h2>
         </div>
-        <div class="graphique">
+        <div class="graphique reveal">
             <div id="graph5">
                 <canvas id="monReg"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
@@ -66,7 +66,7 @@ require 'start_html.inc.php';
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>
             </div>
         </div>
-        <div class="graphique2">
+        <div class="graphique2 reveal">
             <div id="graph7">
                 <canvas id="monMoi"></canvas>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam delectus deserunt dolore dolorum enim eum exercitationem harum incidunt ipsa itaque, magnam maiores numquam odit similique tempora, veritatis, vero voluptatum?</p>

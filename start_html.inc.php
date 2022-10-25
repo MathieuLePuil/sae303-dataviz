@@ -11,6 +11,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js" type="module"></script>
     <script src="js/com.js" type="module"></script>
     <script src="js/comReg.js" type="module"></script>
     <script src="js/comCat.js" type="module"></script>
