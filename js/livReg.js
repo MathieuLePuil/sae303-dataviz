@@ -12,16 +12,19 @@ $(document).ready(function(){
                 ],datasets: [{
                     label: 'Répartition des genres Parcours Communication',
                     backgroundColor: [
-                      'rgb(255, 99, 132)',
-                      'rgb(54, 162, 235)',
+                        '#FF0000',
+                        '#4256AE',
+                        '#027612'
+                    ],
+                    borderColor: [
+                        '#FF0000',
+                        '#4256AE',
+                        '#027612'
                     ],
                     hoverOffset: 4,
                     data: dataJson.livReg,
                   }]
                 },
-                options: {
-                    
-                }
               }
             );
 })

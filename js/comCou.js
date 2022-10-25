@@ -6,13 +6,17 @@ $(document).ready(function(){
             type : 'pie',
             data:{
                 labels:[
-                    'O',
-                    'N'
+                    'Avec coupon',
+                    'Sans coupon'
                 ],datasets: [{
                     label: 'Avec ou sans coupon de réduction',
                     backgroundColor: [
-                      'rgb(255, 99, 132)',
-                      'rgb(54, 162, 235)',
+                        '#FF0000',
+                        '#4256AE',
+                    ],
+                    borderColor: [
+                        '#FF0000',
+                        '#4256AE',
                     ],
                     hoverOffset: 4,
                     data: [dataJson.O, dataJson.N],
