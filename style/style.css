@@ -38,6 +38,7 @@ body {
     overflow: hidden;
     box-shadow: 15px 15px 25px rgba(0,0,0,0.05);
     transition: 0.5s ;
+    z-index: 1000;
 }
 .navigation.active {
     width: 300px;

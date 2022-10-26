@@ -7,31 +7,31 @@
     </li>
     <ul>
         <li>
-            <a href="#accueil">
+            <a href="index.php#accueil">
                 <span class="nav-icon"><ion-icon name="home-outline"></ion-icon></span>
                 <span class="nav-title">Accueil</span>
             </a>
         </li>
         <li>
-            <a href="#nbcommande">
+            <a href="index.php#nbcommande">
                 <span class="nav-icon"><ion-icon name="cart-outline"></ion-icon></span>
                 <span class="nav-title">Stats commandes</span>
             </a>
         </li>
         <li>
-            <a href="#client">
+            <a href="index.php#client">
                 <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
                 <span class="nav-title">Clients</span>
             </a>
         </li>
         <li>
-            <a href="#categorie">
+            <a href="index.php#categorie">
                 <span class="nav-icon"><ion-icon name="library-outline"></ion-icon></span>
                 <span class="nav-title">Catégories</span>
             </a>
         </li>
         <li>
-            <a href="#commande">
+            <a href="index.php#commande">
                 <span class="nav-icon"><ion-icon name="cube-outline"></ion-icon></span>
                 <span class="nav-title">Infos commandes</span>
             </a>
@@ -50,19 +50,19 @@
             </a>
         </li>
         <li>
-            <a href="#client">
+            <a href="#nbcommande">
                 <span class="nav-icon"><ion-icon name="cart-outline"></ion-icon></span>
                 <span class="nav-title">Stats commandes</span>
             </a>
         </li>
         <li>
-            <a href="#"">
+            <a href="#client"">
                 <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
                 <span class="nav-title">Clients</span>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#categorie">
                 <span class="nav-icon"><ion-icon name="library-outline"></ion-icon></span>
                 <span class="nav-title">Catégories</span>
             </a>
