@@ -16,7 +16,17 @@ $(document).ready(function(){
                     ],
                     hoverOffset: 4,
                     data: [dataJson.O, dataJson.N],
-                  }]
+                  }],
+                  options: {
+                    plugins: {
+                        legend: {
+                          labels: {
+                            color: "white",
+                          }
+                        }
+                      },
+                    responsive: true,
+                }
                 }
               }
             );

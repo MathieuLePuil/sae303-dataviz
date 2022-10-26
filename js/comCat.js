@@ -20,6 +20,13 @@ $(document).ready(function(){
                 }],
             },
             options: {
+                plugins: {
+                    legend: {
+                      labels: {
+                        color: "white",
+                      }
+                    }
+                  },
                 scales: {
                     y: {
                         ticks: {

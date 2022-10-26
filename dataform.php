@@ -2,7 +2,7 @@
 require 'start_html.inc.php';
 ?>
 
-<form action="" method="GET">
+<form action="traitement.php" method="GET">
     <div>
         <label for="date">Date :</label>
         <input type="date" id="date">

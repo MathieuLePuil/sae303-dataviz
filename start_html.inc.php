@@ -20,4 +20,5 @@
     <script src="js/monMoi.js" type="module"></script>
     <script src="js/livReg.js" type="module"></script>
     <script src="js/comCou.js" type="module"></script>
+    <script src="js/traitement.js" type="module"></script>
 </head>
