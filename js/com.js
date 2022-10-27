@@ -56,7 +56,6 @@ const com = new Chart(
         }
     }
 )
-
 document.querySelectorAll('input[type=checkbox]').forEach((e) => {
     e.addEventListener('click', (el) => {
         console.log('check')
