@@ -19,6 +19,12 @@ require 'start_html.inc.php';
         <div class="graphique reveal">
             <div id="graph1">
                 <canvas id="com"></canvas>
+                <div>
+                    <input type="checkbox" id="check1" value="A" data-color="rgb(120,123,21)" data-label="A" data-value="[1, 3, 4, 6]">A
+                    <input type="checkbox" id="check1" value="B" data-color="rgb(21,123,121)" data-label="B" data-value="[4, 2, 41, 12]">B
+                    <input type="checkbox" id="check1" value="C" data-color="rgb(20,13,21)" data-label="C" data-value="[2, 0, 9, 6]">C
+                    <input type="checkbox" id="check1" value="D" data-color="rgb(120,13,21)" data-label="D" data-value="[10, 3, 7, 1]">D
+                </div>
                 <p>Le graphique montre le nombre de commandes chaque mois. Celui-ci permet de voir si les ventes augmentent ou diminue.</p>
             </div>
         </div>
