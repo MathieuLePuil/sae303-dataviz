@@ -1,3 +1,4 @@
 {
-    "comReg" : [141 ,68 ,90 ,63 ,66 ,61 ,79 ,141 ,69 ,63 ,63 ,54 ,121]
+    "comReg" : [141 ,68 ,90 ,63 ,66 ,61 ,79 ,141 ,69 ,63 ,63 ,54 ,121],
+    "label":[ "Auvergne-Rhône-Alpes", "Bourgogne-Franche-Comté", "Bretagne", "Centre-Val de Loire", "Corse", "Grand Est", "Hauts-de-France", "Île-de-France", "Normandie", "Nouvelle-Aquitaine", "Occitanie", "Pays de la Loire", "Provence-Alpes-Côte d\"Azur"]
 }

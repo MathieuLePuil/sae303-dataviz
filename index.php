@@ -11,6 +11,25 @@ require 'start_html.inc.php';
         <img src="assets/LOGO%20Muxe.svg" alt="Logo Muxe">
         <h1>Muxe</h1>
     </section>
+    <?php
+                            
+                            $json = file_get_contents('json/monReg.json');
+                            $arr = json_decode($json, true);
+                            $i = 0;
+
+                            foreach ($arr['monReg'] as $key => $value) {
+                                $nb = count($arr['monReg'][$key]);
+                                $i = 0;
+                                $arr1 = [];
+                                while ($i <= $nb-1) {
+                                    $arr1[$i] = $arr['monReg'][$key][$i];
+                                    $i++;
+                                }
+                                var_dump($arr1);
+                                echo "<br />";
+
+                            }
+                        ?>
 
     <section class="nbcommande" id="nbcommande">
         <div class="titre-section">
@@ -32,20 +51,38 @@ require 'start_html.inc.php';
             <div id="graph2">
                 <canvas id="comReg"></canvas>
                 <div>
-                    <input type="checkbox" id="check2" value="A" data-color="rgb(120,123,21)" data-label="A" data-value="[1, 3, 4, 6]">A
-                    <input type="checkbox" id="check2" value="B" data-color="rgb(21,123,121)" data-label="B" data-value="[4, 2, 41, 12]">B
-                    <input type="checkbox" id="check2" value="C" data-color="rgb(20,13,21)" data-label="C" data-value="[2, 0, 9, 6]">C
-                    <input type="checkbox" id="check2" value="D" data-color="rgb(120,13,21)" data-label="D" data-value="[10, 3, 7, 1]">D
+                    <?php
+                            $graphNb = 2;
+                            $name = 'comReg';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
+
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                $i++;
+                            }
+                        ?>
                 </div>
                 <p>Nous pouvons observer ici le nombre de commandes de chaque région. Ceci peut permettre de savoir où ont peut placer les nouveaux entrepôts en cas de besoin (afin de limiter les frais de livraison).</p>
             </div>
             <div id="graph3">
                 <canvas id="livReg"></canvas>
                 <div>
-                    <input type="checkbox" id="check3" value="A" data-color="rgb(120,123,21)" data-label="A" data-value="[1, 3, 4, 6]">A
-                    <input type="checkbox" id="check3" value="B" data-color="rgb(21,123,121)" data-label="B" data-value="[4, 2, 41, 12]">B
-                    <input type="checkbox" id="check3" value="C" data-color="rgb(20,13,21)" data-label="C" data-value="[2, 0, 9, 6]">C
-                    <input type="checkbox" id="check3" value="D" data-color="rgb(120,13,21)" data-label="D" data-value="[10, 3, 7, 1]">D
+                    <?php
+                            $graphNb = 3;
+                            $name = 'livReg';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
+
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                $i++;
+                            }
+                        ?>
                 </div>
                 <p>Les livraisons les plus couteuses sont celles à domicile et en point relais. Nous pouvons donc anticiper les coûts potentiels d'essence avec ce graphique.</p>
             </div>
@@ -59,6 +96,22 @@ require 'start_html.inc.php';
         <div class="graphique reveal">
             <div id="graph4">
                 <canvas id="comCat"></canvas>
+                <div>
+                    <?php
+                            $graphNb = 4;
+                            $name = 'comCat';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
+
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                $i++;
+                            }
+                        ?>
+                </div>
+                
                 <p>Ce graphique représente le nombre de commandes pour les objets de chaque catégorie. Ceci peut permettre de gérer les stocks et réapprovisionner si ceux-ci baissent.</p>
             </div>
         </div>
@@ -71,20 +124,88 @@ require 'start_html.inc.php';
         <div class="graphique reveal">
             <div id="graph5">
                 <canvas id="monReg"></canvas>
+                <div>
+                    <?php
+                            // $graphNb = 5;
+                            // $name = 'monReg';
+                            // $json = file_get_contents('json/'.$name.'.json');
+                            // $arr = json_decode($json, true);
+                            // $nb1 = count($arr[$name]);
+                            // $i = 0;
+
+                            // foreach ($arr[$name] as $key => $value) {
+                            //     $nb = count($arr[$name][$key]);
+                            //     $i = 0;
+                            //     $arr1 = [];
+                            //     while ($i <= $nb-1) {
+                            //         $arr1[$name][$key][$i] = $arr[$name][$key][$value];
+                            //         echo $arr1;
+                            //         $i++;
+                            //     }
+                            //     // echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+
+                            // }
+                        ?>
+                </div>
                 <p>Ce graphique permet à la comptabilité de faire les comptes selon le mode de paiement. En cas de taxe, cela permet de recalculer le montant exact reçu.</p>
             </div>
             <div id="graph6">
                 <canvas id="monCat"></canvas>
+                <div>
+                    <?php
+                            $graphNb = 6;
+                            $name = 'monCat';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
+
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                $i++;
+                            }
+                        ?>
+                </div>
                 <p>Ce graphique représente le montant généré par la vente des objets de chaque catégorie. Nous pouvons donc déceler les catégories qui fonctionnent le mieux et les développer.</p>
             </div>
         </div>
         <div class="graphique2 reveal">
             <div id="graph7">
                 <canvas id="monMoi"></canvas>
+                <div>
+                    <?php
+                            $graphNb = 7;
+                            $name = 'monMoi';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
+
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                $i++;
+                            }
+                        ?>
+                </div>
                 <p>Nous pouvons voir grâce à ce graphique, le montant généré chaque mois avec les commandes. Cela permet de voir si l'entreprise augmente ou pas son chiffre d'affaires en comparant avec les dépenses.</p>
             </div>
             <div id="graph8">
                 <canvas id="comCou"></canvas>
+                <div>
+                    <?php
+                            $graphNb = 8;
+                            $name = 'comCou';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
+
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                $i++;
+                            }
+                        ?>
+                </div>
                 <p>Ce camembert représente le nombre de personnes qui utilise un coupon sur le nombre de commandes total. Cela permet de voir la quantité de bon utilisé sur les commandes et combien de réduction ont été appliquées.</p>
             </div>
         </div>

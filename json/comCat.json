@@ -1,3 +1,4 @@
 {
-    "comCat" : [206, 218, 207,230 ,218]
+    "comCat" : [206, 218, 207,230 ,218],
+    "label": [ "Cuisine", "Électroménager","Image-Son","Informatique","Téléphone"]
 }

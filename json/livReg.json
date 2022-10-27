@@ -1,3 +1,4 @@
 {
-    "livReg" : [345, 330, 404]
+    "livReg" : [345, 330, 404],
+    "label":[ "Domicile", "Point Relais", "Retrait sur Place"]
 }

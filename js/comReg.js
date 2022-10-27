@@ -69,7 +69,6 @@ const comReg = new Chart(
 )
 document.querySelectorAll('input[type=checkbox]').forEach((e) => {
     e.addEventListener('click', (el) => {
-        console.log('comReg')
         if (el.target.checked && el.target.id == 'check2') {
             const val = el.currentTarget.dataset.value.substring(1, el.currentTarget.dataset.value.length - 1).split(', ');
             const obj = {
