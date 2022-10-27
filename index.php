@@ -19,12 +19,6 @@ require 'start_html.inc.php';
         <div class="graphique reveal">
             <div id="graph1">
                 <canvas id="com"></canvas>
-                <div>
-                    <input type="checkbox" id="check1" value="A" data-color="rgb(120,123,21)" data-label="A" data-value="[1, 3, 4, 6]">A
-                    <input type="checkbox" id="check1" value="B" data-color="rgb(21,123,121)" data-label="B" data-value="[4, 2, 41, 12]">B
-                    <input type="checkbox" id="check1" value="C" data-color="rgb(20,13,21)" data-label="C" data-value="[2, 0, 9, 6]">C
-                    <input type="checkbox" id="check1" value="D" data-color="rgb(120,13,21)" data-label="D" data-value="[10, 3, 7, 1]">D
-                </div>
                 <p>Le graphique montre le nombre de commandes chaque mois. Celui-ci permet de voir si les ventes augmentent ou diminue.</p>
             </div>
         </div>
@@ -37,10 +31,22 @@ require 'start_html.inc.php';
         <div class="graphique reveal">
             <div id="graph2">
                 <canvas id="comReg"></canvas>
+                <div>
+                    <input type="checkbox" id="check2" value="A" data-color="rgb(120,123,21)" data-label="A" data-value="[1, 3, 4, 6]">A
+                    <input type="checkbox" id="check2" value="B" data-color="rgb(21,123,121)" data-label="B" data-value="[4, 2, 41, 12]">B
+                    <input type="checkbox" id="check2" value="C" data-color="rgb(20,13,21)" data-label="C" data-value="[2, 0, 9, 6]">C
+                    <input type="checkbox" id="check2" value="D" data-color="rgb(120,13,21)" data-label="D" data-value="[10, 3, 7, 1]">D
+                </div>
                 <p>Nous pouvons observer ici le nombre de commandes de chaque région. Ceci peut permettre de savoir où ont peut placer les nouveaux entrepôts en cas de besoin (afin de limiter les frais de livraison).</p>
             </div>
             <div id="graph3">
                 <canvas id="livReg"></canvas>
+                <div>
+                    <input type="checkbox" id="check3" value="A" data-color="rgb(120,123,21)" data-label="A" data-value="[1, 3, 4, 6]">A
+                    <input type="checkbox" id="check3" value="B" data-color="rgb(21,123,121)" data-label="B" data-value="[4, 2, 41, 12]">B
+                    <input type="checkbox" id="check3" value="C" data-color="rgb(20,13,21)" data-label="C" data-value="[2, 0, 9, 6]">C
+                    <input type="checkbox" id="check3" value="D" data-color="rgb(120,13,21)" data-label="D" data-value="[10, 3, 7, 1]">D
+                </div>
                 <p>Les livraisons les plus couteuses sont celles à domicile et en point relais. Nous pouvons donc anticiper les coûts potentiels d'essence avec ce graphique.</p>
             </div>
         </div>

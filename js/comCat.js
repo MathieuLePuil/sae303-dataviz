@@ -50,8 +50,8 @@ const comCat = new Chart(
 )
 document.querySelectorAll('input[type=checkbox]').forEach((e) => {
     e.addEventListener('click', (el) => {
-        console.log('check')
-        if (el.target.checked) {
+        console.log('comCat')
+        if (el.target.checked && el.target.id == 'check4') {
             const val = el.currentTarget.dataset.value.substring(1, el.currentTarget.dataset.value.length - 1).split(', ');
             const obj = {
                 label: el.currentTarget.dataset.label,
@@ -60,11 +60,11 @@ document.querySelectorAll('input[type=checkbox]').forEach((e) => {
                 backgroundColor: el.currentTarget.dataset.color,
                 borderColor: el.currentTarget.dataset.color,
             }
-            com.data.datasets.push(obj);
-            com.update()
+            comCat.data.datasets.push(obj);
+            comCat.update()
         } else {
-            com.data.datasets = com.data.datasets.filter((e) => e.label !== el.currentTarget.dataset.label)
-            com.update()
+            comCat.data.datasets = comCat.data.datasets.filter((e) => e.label !== el.currentTarget.dataset.label)
+            comCat.update()
         }
     })
 })
