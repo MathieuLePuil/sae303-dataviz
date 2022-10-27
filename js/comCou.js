@@ -19,7 +19,7 @@ const comCou = new Chart(
                     '#4256AE',
                 ],
                 hoverOffset: 4,
-                data: [dataJson.O, dataJson.N],
+                data: [dataJson.comCou.O, dataJson.comCou.N],
             }]
         },
         options: {

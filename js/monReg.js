@@ -23,18 +23,18 @@ const com = new Chart(
                 label: 'CB',
                 backgroundColor: '#FFFFFF',
                 borderColor: '#FFFFFF',
-                data: dataJson.CB,
+                data: dataJson.monReg.CB,
               },{
                 label: 'PAYPAL',
                 backgroundColor: '#4256AE',
                 borderColor: '#4256AE',
-                data: dataJson.PAYPAL,
+                data: dataJson.monReg.PAYPAL,
               }
               ,{
                 label: 'VIRT',
                 backgroundColor: '#FF0000',
                 borderColor: '#FF0000',
-                data: dataJson.VIRT,
+                data: dataJson.monReg.VIRT,
               }]
         },
         options: {
