@@ -1,5 +1,7 @@
 {
-    "O": [88],
-    "N": [991],
+    "comCou" :{
+        "O": [88],
+    "N": [991]
+    },
     "label" : ["Avec coupon", "Sans coupon"]
 }
