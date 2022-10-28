@@ -12,14 +12,7 @@ const comCat = new Chart(
                 'Informatique',
                 'Téléphone'
             ],
-            datasets: [
-            //     {
-            //         label: 'Nombre de commande',
-            //     backgroundColor: '#4256AE',
-            //     borderColor: '#4256AE',
-            //     data: dataJson.comCat,
-            // }
-        ],
+            datasets: []
         },
         options: {
             parsing: {
@@ -58,9 +51,10 @@ document.querySelectorAll('input[type=checkbox]').forEach((e) => {
     e.addEventListener('click', (el) => {
         if (el.target.checked && el.target.id == 'check4') {
             const val = el.currentTarget.dataset.value.substring(1, el.currentTarget.dataset.value.length - 1).split(', ');
+            console.log(el.currentTarget.dataset);
             const obj = {
-                label: [{id: el.currentTarget.dataset.label,nested: {value: val}}],
-                data: val,
+                label: el.currentTarget.dataset.label,
+                data: [{id: el.currentTarget.dataset.label,nested: {value: val}}],
                 fill: false,
                 backgroundColor: el.currentTarget.dataset.color,
                 borderColor: el.currentTarget.dataset.color,

@@ -151,7 +151,7 @@ require 'start_html.inc.php';
                                     $arr1[$key][$i] = $arr[$name][$key][$i];
                                     $i++;
                                 }
-                                echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='".json_encode($arr1[$key])."'>".$key."";
                                 echo '<br />';
                             }
 
