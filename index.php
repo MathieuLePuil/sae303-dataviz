@@ -32,6 +32,9 @@ require 'start_html.inc.php';
                 <canvas id="comReg"></canvas>
                 <div>
                     <?php
+                            $colorR = rand(0,255);
+                            $colorG = rand(0,255);
+                            $colorB = rand(0,255);
                             // $graphNb = 2;
                             // $name = 'comReg';
                             // $json = file_get_contents('json/'.$name.'.json');
@@ -40,7 +43,7 @@ require 'start_html.inc.php';
                             // $i = 0;
 
                             // while ($i <= $nb-1) {
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(".$colorR.",".$colorG.",".$colorB.")' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
                             //     echo '<br />';
                             //     $i++;
                             // }
@@ -60,7 +63,7 @@ require 'start_html.inc.php';
                             // $i = 0;
 
                             // while ($i <= $nb-1) {
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(".$colorR.",".$colorG.",".$colorB.")' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
                             //     echo '<br />';
                             //     $i++;
                             // }
@@ -88,7 +91,7 @@ require 'start_html.inc.php';
                             $i = 0;
 
                             while ($i <= $nb-1) {
-                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(".$colorR.",".$colorG.",".$colorB.")' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
                                 echo '<br />';
                                 $i++;
                             }
@@ -124,7 +127,7 @@ require 'start_html.inc.php';
                             //         $arr1[$key][$i] = $arr[$name][$key][$i];
                             //         $i++;
                             //     }
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
+                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(".$colorR.",".$colorG.",".$colorB.")' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
                             //     echo '<br />';
                             // }
 
@@ -152,7 +155,7 @@ require 'start_html.inc.php';
                             //         $i++;
                             //     }
                             //     $json = json_encode($arr1[$key]);
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='".substr(substr($json,1),0,-1)."'>".$key."";
+                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(".$colorR.",".$colorG.",".$colorB.")' data-label='".$key."' data-value='".substr(substr($json,1),0,-1)."'>".$key."";
                             //     echo '<br />';
                             // }
 
@@ -175,9 +178,9 @@ require 'start_html.inc.php';
 
                             while ($i <= $nb-1) {
                                 if ($i == 0) {
-                                    echo "<input type='checkbox' checked id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                    echo "<input type='checkbox' checked id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(".$colorR.",".$colorG.",".$colorB.")' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
                                 }else{
-                                    echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                    echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(".$colorR.",".$colorG.",".$colorB.")' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
                                 }
                                 echo '<br />';
                                 $i++;
@@ -205,7 +208,7 @@ require 'start_html.inc.php';
                             //         $arr1[$key][$i] = $arr[$name][$key][$i];
                             //         $i++;
                             //     }
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
+                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(".$colorR.",".$colorG.",".$colorB.")' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
 
                             // }
 
