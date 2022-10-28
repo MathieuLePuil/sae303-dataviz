@@ -173,7 +173,11 @@ require 'start_html.inc.php';
                             $i = 0;
 
                             while ($i <= $nb-1) {
-                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                if ($i == 0) {
+                                    echo "<input type='checkbox' checked id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                }else{
+                                    echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                }
                                 echo '<br />';
                                 $i++;
                             }

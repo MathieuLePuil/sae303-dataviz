@@ -22,6 +22,10 @@ const comCat = new Chart(
         ],
         },
         options: {
+            parsing: {
+                xAxisKey: 'id',
+                yAxisKey: 'nested.value'
+            },
             plugins: {
                 legend: {
                     labels: {
@@ -55,7 +59,7 @@ document.querySelectorAll('input[type=checkbox]').forEach((e) => {
         if (el.target.checked && el.target.id == 'check4') {
             const val = el.currentTarget.dataset.value.substring(1, el.currentTarget.dataset.value.length - 1).split(', ');
             const obj = {
-                label: el.currentTarget.dataset.label,
+                label: [{id: el.currentTarget.dataset.label,nested: {value: val}}],
                 data: val,
                 fill: false,
                 backgroundColor: el.currentTarget.dataset.color,

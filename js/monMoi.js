@@ -19,11 +19,7 @@ const monMoi = new Chart(
                 'Novembre',
                 'Décembre'
             ],
-            datasets : [{
-                label: 'Test',
-
-                data: [{id:'Février',nested: {value: 142}}],
-              }]
+            datasets : []
         },
         options: {
             parsing: {
@@ -62,7 +58,6 @@ document.querySelectorAll('input[type=checkbox]').forEach((e) => {
     e.addEventListener('click', (el) => {
         if (el.target.checked && el.target.id == 'check7') {
             const val = el.currentTarget.dataset.value.substring(1, el.currentTarget.dataset.value.length - 1).split(', ');
-            console.log(el.currentTarget.dataset.label)
             const obj = {
                 label: el.currentTarget.dataset.label,
                 data: [{id: el.currentTarget.dataset.label,nested: {value: val}}],

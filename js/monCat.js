@@ -47,6 +47,10 @@ const monCat = new Chart(
         //       }]
         },
         options: {
+            parsing: {
+                xAxisKey: 'id',
+                yAxisKey: 'nested.value'
+            },
             scales: {
                 y: {
                     ticks: {
@@ -79,8 +83,9 @@ document.querySelectorAll('input[type=checkbox]').forEach((e) => {
     e.addEventListener('click', (el) => {
         if (el.target.checked && el.target.id == 'check6') {
             const val = el.currentTarget.dataset.value.substring(1, el.currentTarget.dataset.value.length - 1).split(', ');
+            console.log(val);
             const obj = {
-                label: el.currentTarget.dataset.label,
+                label: [{id: el.currentTarget.dataset.label,nested: {value: val}}],
                 data: val,
                 fill: false,
                 backgroundColor: el.currentTarget.dataset.color,
