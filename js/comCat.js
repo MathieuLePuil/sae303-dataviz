@@ -11,8 +11,7 @@ const comCat = new Chart(
                 'Image-Son',
                 'Informatique',
                 'Téléphone'
-            ],
-            datasets: []
+            ]
         },
         options: {
             parsing: {
@@ -48,10 +47,17 @@ const comCat = new Chart(
     }
 )
 document.querySelectorAll('input[type=checkbox]').forEach((e) => {
+    console.log(e[0])
+        // if (e.target.checked) {
+        //     console.log('cliqué')
+        // }else{
+        //     // e.click() 
+        //     console.log('a cliquer')
+        // }
     e.addEventListener('click', (el) => {
+        const v = el;
         if (el.target.checked && el.target.id == 'check4') {
             const val = el.currentTarget.dataset.value.substring(1, el.currentTarget.dataset.value.length - 1).split(', ');
-            console.log(el.currentTarget.dataset);
             const obj = {
                 label: el.currentTarget.dataset.label,
                 data: [{id: el.currentTarget.dataset.label,nested: {value: val}}],
@@ -59,6 +65,7 @@ document.querySelectorAll('input[type=checkbox]').forEach((e) => {
                 backgroundColor: el.currentTarget.dataset.color,
                 borderColor: el.currentTarget.dataset.color,
             }
+            console.log(obj.data);
             comCat.data.datasets.push(obj);
             comCat.update()
         } else {
