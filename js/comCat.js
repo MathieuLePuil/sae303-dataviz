@@ -12,12 +12,14 @@ const comCat = new Chart(
                 'Informatique',
                 'Téléphone'
             ],
-            datasets: [{
-                    label: 'Nombre de commande',
-                backgroundColor: '#4256AE',
-                borderColor: '#4256AE',
-                data: dataJson.comCat,
-            }],
+            datasets: [
+            //     {
+            //         label: 'Nombre de commande',
+            //     backgroundColor: '#4256AE',
+            //     borderColor: '#4256AE',
+            //     data: dataJson.comCat,
+            // }
+        ],
         },
         options: {
             plugins: {

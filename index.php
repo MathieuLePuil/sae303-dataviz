@@ -41,6 +41,7 @@ require 'start_html.inc.php';
 
                             while ($i <= $nb-1) {
                                 echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                echo '<br />';
                                 $i++;
                             }
                         ?>
@@ -51,17 +52,18 @@ require 'start_html.inc.php';
                 <canvas id="livReg"></canvas>
                 <div>
                     <?php
-                            // $graphNb = 3;
-                            // $name = 'livReg';
-                            // $json = file_get_contents('json/'.$name.'.json');
-                            // $arr = json_decode($json, true);
-                            // $nb = count($arr[$name]);
-                            // $i = 0;
+                            $graphNb = 3;
+                            $name = 'livReg';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
 
-                            // while ($i <= $nb-1) {
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
-                            //     $i++;
-                            // }
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                echo '<br />';
+                                $i++;
+                            }
                         ?>
                 </div>
                 <p>Les livraisons les plus couteuses sont celles à domicile et en point relais. Nous pouvons donc anticiper les coûts potentiels d'essence avec ce graphique.</p>
@@ -78,17 +80,18 @@ require 'start_html.inc.php';
                 <canvas id="comCat"></canvas>
                 <div>
                     <?php
-                            // $graphNb = 4;
-                            // $name = 'comCat';
-                            // $json = file_get_contents('json/'.$name.'.json');
-                            // $arr = json_decode($json, true);
-                            // $nb = count($arr[$name]);
-                            // $i = 0;
+                            $graphNb = 4;
+                            $name = 'comCat';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
 
-                            // while ($i <= $nb-1) {
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
-                            //     $i++;
-                            // }
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                echo '<br />';
+                                $i++;
+                            }
                         ?>
                 </div>
                 
@@ -106,24 +109,24 @@ require 'start_html.inc.php';
                 <canvas id="monReg"></canvas>
                 <div>
                     <?php
-                            // $graphNb = 5;
-                            // $name = 'monReg';
-                            // $json = file_get_contents('json/'.$name.'.json');
-                            // $arr = json_decode($json, true);
-                            // $nb1 = count($arr[$name]);
+                            $graphNb = 5;
+                            $name = 'monReg';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb1 = count($arr[$name]);
 
-                            // foreach ($arr[$name] as $key => $value) {
-                            //     $nb = count($arr[$name][$key]);
-                            //     $i = 0;
-                            //     $n = 0;
-                            //     $arr1 = [];
-                            //     while ($i <= $nb-1) {
-                            //         $arr1[$key][$i] = $arr[$name][$key][$i];
-                            //         $i++;
-                            //     }
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
-
-                            // }
+                            foreach ($arr[$name] as $key => $value) {
+                                $nb = count($arr[$name][$key]);
+                                $i = 0;
+                                $n = 0;
+                                $arr1 = [];
+                                while ($i <= $nb-1) {
+                                    $arr1[$key][$i] = $arr[$name][$key][$i];
+                                    $i++;
+                                }
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
+                                echo '<br />';
+                            }
 
                         ?>
                 </div>
@@ -133,24 +136,24 @@ require 'start_html.inc.php';
                 <canvas id="monCat"></canvas>
                 <div>
                 <?php
-                            // $graphNb = 6;
-                            // $name = 'monCat';
-                            // $json = file_get_contents('json/'.$name.'.json');
-                            // $arr = json_decode($json, true);
-                            // $nb1 = count($arr[$name]);
+                            $graphNb = 6;
+                            $name = 'monCat';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb1 = count($arr[$name]);
 
-                            // foreach ($arr[$name] as $key => $value) {
-                            //     $nb = count($arr[$name][$key]);
-                            //     $i = 0;
-                            //     $n = 0;
-                            //     $arr1 = [];
-                            //     while ($i <= $nb-1) {
-                            //         $arr1[$key][$i] = $arr[$name][$key][$i];
-                            //         $i++;
-                            //     }
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
-
-                            // }
+                            foreach ($arr[$name] as $key => $value) {
+                                $nb = count($arr[$name][$key]);
+                                $i = 0;
+                                $n = 0;
+                                $arr1 = [];
+                                while ($i <= $nb-1) {
+                                    $arr1[$key][$i] = $arr[$name][$key][$i];
+                                    $i++;
+                                }
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$key."' data-color='rgb(120,123,21)' data-label='".$key."' data-value='[".json_encode($arr1)."]'>".$key."";
+                                echo '<br />';
+                            }
 
                         ?>
                 </div>
@@ -162,17 +165,18 @@ require 'start_html.inc.php';
                 <canvas id="monMoi"></canvas>
                 <div>
                     <?php
-                            // $graphNb = 7;
-                            // $name = 'monMoi';
-                            // $json = file_get_contents('json/'.$name.'.json');
-                            // $arr = json_decode($json, true);
-                            // $nb = count($arr[$name]);
-                            // $i = 0;
+                            $graphNb = 7;
+                            $name = 'monMoi';
+                            $json = file_get_contents('json/'.$name.'.json');
+                            $arr = json_decode($json, true);
+                            $nb = count($arr[$name]);
+                            $i = 0;
 
-                            // while ($i <= $nb-1) {
-                            //     echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
-                            //     $i++;
-                            // }
+                            while ($i <= $nb-1) {
+                                echo "<input type='checkbox' id='check".$graphNb."' value='".$arr['label'][$i]."' data-color='rgb(120,123,21)' data-label='".$arr['label'][$i]."' data-value='[".$arr[$name][$i]."]'>".$arr['label'][$i]."";
+                                echo '<br />';
+                                $i++;
+                            }
                         ?>
                 </div>
                 <p>Nous pouvons voir grâce à ce graphique, le montant généré chaque mois avec les commandes. Cela permet de voir si l'entreprise augmente ou pas son chiffre d'affaires en comparant avec les dépenses.</p>

@@ -18,13 +18,7 @@ const monMoi = new Chart(
                 'Octobre',
                 'Novembre',
                 'Décembre'
-            ],
-            datasets : [{
-                label: 'Montant des commandes',
-                backgroundColor: '#4256AE',
-                borderColor: '#4256AE',
-                data: dataJson.monMoi,
-              }]
+            ]
         },
         options: {
             scales: {
