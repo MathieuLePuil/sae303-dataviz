@@ -20,23 +20,23 @@ const com = new Chart(
                 'Décembre'
             ],
             datasets: [
-            //     {
-            //     label: 'CB',
-            //     backgroundColor: '#FFFFFF',
-            //     borderColor: '#FFFFFF',
-            //     data: dataJson.monReg.CB,
-            //   },{
-            //     label: 'PAYPAL',
-            //     backgroundColor: '#4256AE',
-            //     borderColor: '#4256AE',
-            //     data: dataJson.monReg.PAYPAL,
-            //   }
-            //   ,{
-            //     label: 'VIRT',
-            //     backgroundColor: '#FF0000',
-            //     borderColor: '#FF0000',
-            //     data: dataJson.monReg.VIRT,
-            //   }
+                {
+                label: 'CB',
+                backgroundColor: '#FFFFFF',
+                borderColor: '#FFFFFF',
+                data: dataJson.monReg.CB,
+              },{
+                label: 'PAYPAL',
+                backgroundColor: '#4256AE',
+                borderColor: '#4256AE',
+                data: dataJson.monReg.PAYPAL,
+              }
+              ,{
+                label: 'VIRT',
+                backgroundColor: '#FF0000',
+                borderColor: '#FF0000',
+                data: dataJson.monReg.VIRT,
+              }
             ]
         },
         options: {

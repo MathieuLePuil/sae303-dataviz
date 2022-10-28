@@ -52,6 +52,7 @@ const comReg = new Chart(
                     '#FFFFFF',
                 ],
                 hoverOffset: 4,
+                data: dataJson.comReg,
               }]
             },
         options: {
