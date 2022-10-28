@@ -13,10 +13,10 @@
     <script src="main.js" type="module"></script>
     <script src="js/com.js" type="module" defer></script>
     <script src="js/comReg.js" type="module" defer></script>
+    <script src="js/monMoi.js" type="module" defer></script>
     <script src="js/comCat.js" type="module" defer></script>
     <script src="js/monReg.js" type="module" defer></script>
     <script src="js/monCat.js" type="module" defer></script>
-    <script src="js/monMoi.js" type="module" defer></script>
     <script src="js/livReg.js" type="module" defer></script>
     <script src="js/comCou.js" type="module" defer></script>
 </head>

@@ -42,14 +42,12 @@ document.querySelectorAll('input[type=checkbox]').forEach((e) => {
             const val = el.currentTarget.dataset.value.substring(1, el.currentTarget.dataset.value.length - 1).split(', ');
             const obj = {
                 label: el.currentTarget.dataset.label,
-                data: {
-                        Domicile: 10
-                    },
+                data: val,
                 fill: false,
                 backgroundColor: el.currentTarget.dataset.color,
                 borderColor: el.currentTarget.dataset.color,
             }
-            console.log(obj.data);
+            console.log();
             livReg.data.datasets.push(obj);
             livReg.update()
         } else {
